@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Robson Construções</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <img src="../assets/logo.svg" alt="Logo do site">
+                <h2>Robson Construções</h2>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="../funcionarios/index.html">Funcionários</a></li>
+                    <li class="active"><a href="../cargos/index.html">Cargos</a></li>
+                    <li><a href="../relatorio/index.html">Relatório</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div class="search-bar">
+                <input type="text" id="search-input" placeholder="Pesquisar por nome, código ou código do cargo">
+                <div class="search-button">
+                    <button id="search-button"><img src="../assets/magnifying glass.svg" alt="lupa"></button>
+                </div>
+            </div>
+            <div class="table-container">
+                <div class="role-btn">
+                    <button id="add-role-btn">
+                        <a href="../cadastro cargos/index.html">
+                            <img src="../assets/plus.svg" alt="+">Novo Cargo
+                        </a>
+                    </button>
+                </div>
+                <table id="role-table">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Nome</th>
+                            <th>Salario</th>
+                            <th>Ações</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
+            </div>
+        </main>
+    </div>
+    <script></script>
+</body>
+</html>
